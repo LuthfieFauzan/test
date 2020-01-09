@@ -1,6 +1,5 @@
 public class Number {
     public static void main(String args[]) {
-      System.out.println("Hello World");
         for (int i=0; i<100; i++){
 	if(i==2||i==3||i==5||i==7)
 	System.out.println(i);
