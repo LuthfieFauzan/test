@@ -1,4 +1,4 @@
-import java.util.*;
+
 
 public class Tess {
 
@@ -14,12 +14,10 @@ public class Tess {
 
     public static void main(String[] args) {
         // TODO code application logic here
-    int a, i, j;
-    Scanner scan = new Scanner(System.in);
-    System.out.print("Masukkan nilai: ");
-    a = scan.nextInt();
-    for (i=0; i<a; i++){
-      for (j=0; j<a-i-1; j++){
+    int  i, j;
+    
+    for (i=0; i<20; i++){
+      for (j=0; j<20-i-1; j++){
         System.out.print(" ");
       }
       for (j=0; j<=i; j++){
